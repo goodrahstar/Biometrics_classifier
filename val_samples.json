@@ -1,0 +1,22 @@
+[
+  {
+    "image_id": "iris2.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "finger6.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "foot3.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "foot6.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face8.jpg",
+    "label": 1
+  }
+]

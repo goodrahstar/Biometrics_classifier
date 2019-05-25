@@ -1,0 +1,42 @@
+[
+  {
+    "image_id": "iris6.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "palm9.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "finger8.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "finger5.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "foot10.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "iris8.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face7.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "iris9.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "iris10.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "iris5.jpg",
+    "label": 1
+  }
+]

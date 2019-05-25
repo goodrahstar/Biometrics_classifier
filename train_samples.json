@@ -1,0 +1,142 @@
+[
+  {
+    "image_id": "foot5.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "palm5.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "palm6.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "finger10.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "palm7.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "iris1.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face2.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "iris4.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face10.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "finger9.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "foot4.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "palm4.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "foot1.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "foot2.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "palm1.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "finger1.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "foot9.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "finger7.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "palm10.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "palm3.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "iris3.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "palm8.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "foot7.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face4.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "finger3.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "finger4.jpg",
+    "label": 0
+  },
+  {
+    "image_id": "palm2.jpeg",
+    "label": 1
+  },
+  {
+    "image_id": "face9.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face3.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face6.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face5.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "iris7.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "face1.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "foot8.jpg",
+    "label": 1
+  },
+  {
+    "image_id": "finger2.jpg",
+    "label": 0
+  }
+]

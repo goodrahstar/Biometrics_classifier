@@ -1,0 +1,78 @@
+2019-05-25 10:44:18 - data_prep - INFO - 
+****** Running image validation ******
+
+2019-05-25 10:44:19 - data_prep - INFO - The following files are not valid image files:
+2019-05-25 10:44:19 - data_prep - INFO - - /home/rk/Downloads/bio/train/Thumbs.db (cannot identify image file '/home/rk/Downloads/bio/train/Thumbs.db')
+2019-05-25 10:44:19 - data_prep - INFO - 
+****** Running samples validation ******
+
+2019-05-25 10:44:19 - data_prep - INFO - The following samples were dropped:
+2019-05-25 10:44:19 - data_prep - INFO - - {'image_id': 'Thumbs.db', 'label': 'NotFinger'}
+2019-05-25 10:44:19 - data_prep - INFO - Class distribution after validation:
+2019-05-25 10:44:19 - data_prep - INFO - Finger: 10 (20.0%)
+2019-05-25 10:44:19 - data_prep - INFO - NotFinger: 40 (80.0%)
+2019-05-25 10:44:19 - data_prep - INFO - Class mapping:
+{0: 'Finger', 1: 'NotFinger'}
+2019-05-25 10:44:19 - data_prep - INFO - 
+****** Creating train/val/test sets ******
+
+2019-05-25 10:44:19 - data_prep - INFO - Split distribution: train: 0.70, val: 0.1, test: 0.2
+
+2019-05-25 10:44:19 - data_prep - INFO - Partial split distribution: train: 0.70, val: 0.10, test: 0.20
+
+2019-05-25 10:44:19 - data_prep - INFO - Train set:
+2019-05-25 10:44:19 - data_prep - INFO - 0: 7 (20.0%)
+2019-05-25 10:44:19 - data_prep - INFO - 1: 28 (80.0%)
+2019-05-25 10:44:19 - data_prep - INFO - Val set:
+2019-05-25 10:44:19 - data_prep - INFO - 0: 1 (20.0%)
+2019-05-25 10:44:19 - data_prep - INFO - 1: 4 (80.0%)
+2019-05-25 10:44:19 - data_prep - INFO - Test set:
+2019-05-25 10:44:19 - data_prep - INFO - 0: 2 (20.0%)
+2019-05-25 10:44:19 - data_prep - INFO - 1: 8 (80.0%)
+2019-05-25 10:45:26 - training - INFO - 
+****** Train dense layers ******
+
+2019-05-25 10:45:31 - keras_utils - DEBUG - Epoch: 1 - val_loss: 0.4813 - val_acc: 0.8000 - loss: 0.8101 - acc: 0.6286
+2019-05-25 10:45:31 - keras_utils - INFO - 
+Epoch 00001: val_acc improved from -inf to 0.80000, saving model to /home/rk/Downloads/finger_notfinger/models/model_mobilenet_01_0.800.hdf5
+2019-05-25 10:45:33 - keras_utils - DEBUG - Epoch: 2 - val_loss: 0.5564 - val_acc: 0.8000 - loss: 1.3216 - acc: 0.6286
+2019-05-25 10:45:33 - keras_utils - INFO - 
+Epoch 00002: val_acc did not improve from 0.80000
+2019-05-25 10:45:35 - keras_utils - DEBUG - Epoch: 3 - val_loss: 0.6201 - val_acc: 0.8000 - loss: 0.9924 - acc: 0.6286
+2019-05-25 10:45:35 - keras_utils - INFO - 
+Epoch 00003: val_acc did not improve from 0.80000
+2019-05-25 10:45:35 - training - INFO - 
+****** Train all layers ******
+
+2019-05-25 10:45:43 - keras_utils - DEBUG - Epoch: 4 - val_loss: 0.0457 - val_acc: 1.0000 - loss: 0.5640 - acc: 0.7714
+2019-05-25 10:45:43 - keras_utils - INFO - 
+Epoch 00004: val_acc improved from 0.80000 to 1.00000, saving model to /home/rk/Downloads/finger_notfinger/models/model_mobilenet_04_1.000.hdf5
+2019-05-25 10:46:23 - evaluation - INFO - 
+****** Load model ******
+
+2019-05-25 10:46:30 - evaluation - INFO - loaded /home/rk/Downloads/finger_notfinger/models/model_mobilenet_04_1.000.hdf5
+
+2019-05-25 10:46:30 - evaluation - INFO - 
+****** Calculate distribution on test set ******
+
+2019-05-25 10:46:30 - evaluation - INFO - 
+****** Make prediction on test set ******
+
+2019-05-25 10:46:31 - evaluation - INFO - 
+****** Calculate classification report ******
+
+2019-05-25 10:46:31 - evaluation - INFO - 
+Model achieves 100.0% accuracy on test set
+
+2019-05-25 10:46:31 - evaluation - INFO -               precision    recall  f1-score   support
+
+      Finger       1.00      1.00      1.00         2
+   NotFinger       1.00      1.00      1.00         8
+
+   micro avg       1.00      1.00      1.00        10
+   macro avg       1.00      1.00      1.00        10
+weighted avg       1.00      1.00      1.00        10
+
+2019-05-25 10:46:31 - evaluation - INFO - 
+****** Plot confusion matrix ******
+
